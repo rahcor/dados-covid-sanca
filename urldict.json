@@ -1,4 +1,7 @@
 {
+    "20210508": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/covid-19-sao-carlos-08-05-2021-boletim-extra/"
+    },
     "20210507": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-07-05-2021-boletim-no-348-ano-2/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/05/348_boletim_07052021.png#id=9342&post_id=9341"
@@ -18,6 +21,12 @@
     "20210503": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-03-05-2021-boletim-no-344-ano-2/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/05/344_boletim_01052021.png#id=9293&post_id=9292"
+    },
+    "20210502": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/covid-19-sao-carlos-02-05-2021-boletim-extra/"
+    },
+    "20210501": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/covid-19-sao-carlos-01-05-2021-boletim-extra/"
     },
     "20210430": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-30-04-2021-boletim-no-343-ano-2/",
@@ -39,6 +48,12 @@
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-26-04-2021-boletim-no-339-ano-2/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/04/339_boletim_26042021.png#id=9207&post_id=9206"
     },
+    "20210425": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/covid-19-sao-carlos-25-04-2021-boletim-extra/"
+    },
+    "20210424": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/covid-19-sao-carlos-24-04-2021-boletim-extra/"
+    },
     "20210423": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-23-04-2021-boletim-no-338-ano-2/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/04/338_boletim_23042021.png#id=9177&post_id=9176"
@@ -47,6 +62,9 @@
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-22-04-2021-boletim-no-337-ano-2/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/04/337_boletim_22042021-ok.png#id=9144&post_id=9138"
     },
+    "20210421": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/covid-19-sao-carlos-21-04-2021-boletim-extra/"
+    },
     "20210420": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-20-04-2021-boletim-no-336-ano-2/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/04/336_boletim_20042021.png#id=9122&post_id=9121"
@@ -54,6 +72,12 @@
     "20210419": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-19-04-2021-boletim-no-335-ano-2/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/04/335_boletim_19042021.png#id=9088&post_id=9087"
+    },
+    "20210418": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/covid-19-sao-carlos-18-04-2021-boletim-extra/"
+    },
+    "20210417": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/covid-19-sao-carlos-17-04-2021-boletim-extra/"
     },
     "20210416": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-16-04-2021-boletim-no-334-ano-2/",
@@ -75,6 +99,12 @@
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-12-04-2021-boletim-no-330-ano-2/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/04/330_boletim_12042021.png#id=8974&post_id=8973"
     },
+    "20210411": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/covid-19-sao-carlos-11-04-2021-boletim-extra/"
+    },
+    "20210410": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/covid-19-sao-carlos-10-04-2021-boletim-extra/"
+    },
     "20210409": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-09-04-2021-boletim-no-329-ano-2/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/04/329_boletim_09042021.png#id=8905&post_id=8903"
@@ -94,6 +124,9 @@
     "20210405": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-05-04-2021-boletim-no-325-ano-2/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/04/325_boletim_05042021-100.png#id=8823&post_id=8822"
+    },
+    "20210404": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/covid-19-sao-carlos-04-04-2021-boletim-extra/"
     },
     "20210403": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-03-04-2021-boletim-no-324-ano-2/",
@@ -116,12 +149,10 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/03/320_boletim_29032021.png#id=8686&post_id=8685"
     },
     "20210328": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-28-03-2021-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-28-03-2021-boletim-extra/"
     },
     "20210327": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-27-03-2021-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-27-03-2021-boletim-extra/"
     },
     "20210326": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-26-03-2021-boletim-no-319-ano-2/",
@@ -144,12 +175,10 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/03/315_boletim_22032021.png#id=8453&post_id=8452"
     },
     "20210321": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-21-03-2021-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-21-03-2021-boletim-extra/"
     },
     "20210320": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-20-03-2021-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-20-03-2021-boletim-extra/"
     },
     "20210319": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-19-03-2021-boletim-no-314-ano-2/",
@@ -172,8 +201,7 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/03/310_boletim_15032021.png#id=8252&post_id=8253"
     },
     "20210313": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-13-03-2021-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-13-03-2021-boletim-extra/"
     },
     "20210312": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-12-03-2021-boletim-no-309-ano-2/",
@@ -192,12 +220,10 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/03/306_boletim_09032021.png#id=8042&post_id=8039"
     },
     "20210307": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-07-03-2021-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-07-03-2021-boletim-extra/"
     },
     "20210306": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-06-03-2021-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-06-03-2021-boletim-extra/"
     },
     "20210305": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-05-03-2021-boletim-no-304-ano-2/",
@@ -212,8 +238,7 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/03/302_boletim_030320211.png#id=7896&post_id=7895"
     },
     "20210302": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-02-03-2021-boletim-no-301-ano-2/",
-        "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/301_boletim_02032021.png#id=7884&post_id=7885"
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/covid-19-sao-carlos-02-03-2021-boletim-extra/"
     },
     "20210227": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-27-02-2021-boletim-no-300-ano-2/",
@@ -240,12 +265,10 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/295_boletim_22022021.png#id=7677&post_id=7678"
     },
     "20210221": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-21-02-21-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-21-02-21-boletim-extra/"
     },
     "20210220": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-20-02-21-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-20-02-21-boletim-extra/"
     },
     "20210219": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-19-02-2021-boletim-no-294-ano-2/",
@@ -288,8 +311,7 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/285_boletim_08022021.png#id=7342&post_id=7343"
     },
     "20210207": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-07-02-2021-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-07-02-2021-boletim-extra/"
     },
     "20210205": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-05-02-2021-boletim-no-284-ano-2/",
@@ -312,8 +334,7 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/280_boletim_01022021.png#id=7129&post_id=7130"
     },
     "20210130": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-30-01-2021-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-30-01-2021-boletim-extra/"
     },
     "20210128": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-28-01-2021-boletim-no-278-ano-2/",
@@ -332,8 +353,7 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/01/IMG-20210125-WA0037.jpg#id=6984&post_id=6985"
     },
     "20210123": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-23-01-2021-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-23-01-2021-boletim-extra/"
     },
     "20210122": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-22-01-2021-boletim-no-274-ano-2/",
@@ -356,8 +376,7 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/01/IMG-20210118-WA0039.jpg#id=6818&post_id=6819"
     },
     "20210116": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-16-01-2021-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-16-01-2021-boletim-extra/"
     },
     "20210115": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-15-01-2021-boletim-no-269-ano-2/",
@@ -380,8 +399,7 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/01/IMG-20210111-WA0056.jpg#id=6749&post_id=6750"
     },
     "20210109": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-09-01-2021-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-09-01-2021-boletim-extra/"
     },
     "20210108": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-08-01-2021-boletim-no-264-ano-2/",
@@ -407,6 +425,9 @@
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-02-01-2021-boletim-no-259-ano-2/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2021/01/IMG-20210102-WA0024.jpg#id=6679&post_id=6680"
     },
+    "20201231": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/boletim-extra-covid-19-sao-carlos-31-12-2020/"
+    },
     "20201230": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-30-12-boletim-no-258/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/258_boletim_30122020.png#id=6662&post_id=6663"
@@ -418,6 +439,9 @@
     "20201228": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-28-12-boletim-no-256/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/03/256_boletim_28122020.png#id=6648&post_id=6649"
+    },
+    "20201224": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/boletim-extra-covid-19-sao-carlos-24-12-2020/"
     },
     "20201223": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-23-12-boletim-no-254/",
@@ -500,8 +524,7 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/11/235_boletim_26112020.png#id=6348&post_id=6347"
     },
     "20201125": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-25-11-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-25-11-boletim-extra/"
     },
     "20201124": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-24-11-boletim-no-233/",
@@ -776,8 +799,7 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/08/casos2808.jpg#id=5531&post_id=5532"
     },
     "20200827": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-27-08-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-27-08-boletim-extra/"
     },
     "20200826": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-26-08-boletim-no-164/",
@@ -804,8 +826,7 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/08/casos2108.jpg#id=5444&post_id=5445"
     },
     "20200819": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-19-08-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-19-08-boletim-extra/"
     },
     "20200818": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-18-08-boletim-no-156/",
@@ -860,8 +881,7 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/08/casos0608.jpg#id=5253&post_id=5254"
     },
     "20200805": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-05-08-boletim-no-143/",
-        "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/08/casos0508.jpg#id=5236&post_id=5237"
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-05-08-boletim-extra-2/"
     },
     "20200804": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-04-08-boletim-no-142/",
@@ -872,8 +892,7 @@
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2020/08/casos0308.jpg#id=5194&post_id=5195"
     },
     "20200802": {
-        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-02-08-boletim-extra/",
-        "imagesrc": null
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-02-08-boletim-extra/"
     },
     "20200801": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-01-08-boletim-no-139/",
