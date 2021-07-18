@@ -20,12 +20,12 @@
 <hr />
 <p>Dados de notificações de síndrome gripal do OpenDataSUS: <a href="https://opendatasus.saude.gov.br/dataset/casos-nacionais" class="uri">https://opendatasus.saude.gov.br/dataset/casos-nacionais</a><br />
 Arquivo com os todos os dados coletados: <a href="db-sintomas.json" class="uri">db-sintomas.json</a></p>
-<p>Essa aplicação foi realizada como trabalho para disciplina de Inferência Bayesiana do <a href="http://www.pipges.ufscar.br/">Programa Integrado de Pós Graduação em Estatística (UFSCar/USP)</a> ministrada pelo <a href="https://www.rafaelstern.science/">Professor Rafael Stern</a>. Ela foi inspirada pela <a href="https://twitter.com/leosbastos/status/1387562917025959939">publicação do pesquisador Leo Bastos</a>, da Fiocruz, no twitter. Esse é o mesmo tipo de nowcasting que o divulgador científico Átila Iamarino usou em seus vídeos publicados no YouTube, porém aqui a estimativa é restrita somente aos casos do município de São Carlos-SP.</p>
+<p>Essa aplicação foi realizada como trabalho para disciplina de Inferência Bayesiana do <a href="http://www.pipges.ufscar.br/">Programa Integrado de Pós Graduação em Estatística (UFSCar/USP)</a> ministrada pelo <a href="https://www.rafaelstern.science/">Professor Rafael B. Stern</a>. Ela foi inspirada pela <a href="https://twitter.com/leosbastos/status/1387562917025959939">publicação do pesquisador Leo Bastos</a>, da Fiocruz, no twitter. Esse é o mesmo tipo de nowcasting que o divulgador científico Átila Iamarino usou em seus vídeos publicados no YouTube, porém aqui a estimativa é restrita somente aos casos do município de São Carlos-SP.</p>
 <hr />
 <h1 id="detalhamento-do-método">Detalhamento do método</h1>
 <p>Nowcasting consiste na previsão de dados atuais que ainda não foram recebidos devidos à atrasos oriundos de diversas fontes. Nesse caso de aplicação epidemiológica, o dado de interesse pode ser o número presente de pessoas que começaram a apresentar sintomas de determinada doença, que indica a real incidência da doença no momento. As fontes de atraso, as quais são acumulativas, podem ser, por exemplo, o tempo até a pessoa notificar o agente público, o tempo do agende público receber o relato e fazer o registro no sistema de notificação, o tempo até sair o resultado do exame para a doença, entre outras (refletidas nos dados passados).</p>
 <p>O conceito base do nowcasting pode ser visualizado por meio de uma tabela, com cruzamento dos dias do calendário por dias atrasados de recebimento do dado. Um trecho de uma tabela de exemplo é mostrado na Tabela 1. Imagine que hoje é dia 13/jun/2021 e que estão sendo observados dados que chegam até 3 dias atrasados. Desse modo há incerteza sobre quantas pessoas apresentaram sintomas hoje (13/jun) mas que só irão até um agente de saúde amanhã (D+1) ou depois de 2 ou 3 dias (D+2 e D+3). Essa incerteza é representada por ‘?’ em cada célula referente aos dados que chegarão futuramente com atraso. Observe que ela reflete no número total de pessoas com sintoma naquela dia. Os atrasos podem ser maiores que os 3 dias mostrados no exemplo, porém somente foram usados apresentados para facilitar a explicação.</p>
-<table style="width:80%; margin: auto;">
+<table class="table1">
 <caption>Tabela 1 - Quantidade de dados recebidos após i dias da mesma data da linha.</caption>
 <colgroup>
 <col style="width: 15%" />
@@ -130,7 +130,7 @@ Arquivo com os todos os dados coletados: <a href="db-sintomas.json" class="uri">
 <p>Para a solução foi utilizada a implementação do pacote <code>NobBS</code> do R, que contempla o modelo de nowcasting e realiza o cálculo preditivo por MCMC a partir de amostras obtidas do JAGS (Just Another Gibbs Sampler).</p>
 <p>O código da solução do modelo em R usando o pacote <code>NobBS</code> pode ser encontrado nesse link: <a href="./autoupdate-now-20210717.R">script R</a></p>
 <h3 id="versões-dos-pacotes">Versões dos pacotes</h3>
-<table style="width: 20%;">
+<table class="tablelib">
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">kernel R:</td>
@@ -155,17 +155,17 @@ Arquivo com os todos os dados coletados: <a href="db-sintomas.json" class="uri">
 <h3 id="priori-da-dirichlet-e-atraso-máximo">Priori da Dirichlet e atraso máximo</h3>
 <p>Nessa aplicação, foram usados os valores de densidade do histograma (Figura 1) de todo histórico de atrasos para os primeiros dias até o atraso máximo como os parâmetros da Dirichlet. Como a soma não supera 1, a priori é fraca, permitindo que a verossimilhança exerça relativa influência sobre os parâmetros a posteriori.</p>
 <figure style="text-align: center;">
-<img src="./hist-delays.png" alt="Figura 1 - Histograma da distribuição dos atrasos do início dos sintomas à última data de atualização do caso." style="margin: auto;" /><figcaption>Figura 1 - Histograma da distribuição dos atrasos do início dos sintomas à última data de atualização do caso.</figcaption>
+<img src="./hist-delays.jpeg" alt="Figura 1 - Histograma da distribuição dos atrasos do início dos sintomas à última data de atualização do caso." style="margin: auto;" /><figcaption>Figura 1 - Histograma da distribuição dos atrasos do início dos sintomas à última data de atualização do caso.</figcaption>
 </figure>
 <p>Como observado na Figura 1, a quantidade de dados em atraso diminui quanto maior o atraso. Foi escolhido 30 como o dia limite de censura dos dados, ou seja, o atraso máximo, já que somente cerca de 2% dos dados em todo histórico foram recebidos com atraso superior a 30 dias.</p>
 <h3 id="janela-de-tempo-da-verossimilhança-e-distribuição-para-n_td">Janela de tempo da verossimilhança e Distribuição para <span class="math inline">\(n_{t,d}\)</span></h3>
 <p>Para as janelas de tempo foram avaliadas as opções de 45, 90 e 120 dias. Para a distribuição de <span class="math inline">\(n_{t,d}\)</span> foram consideradas as distribuições de Poisson e Binomial negativa. Todas combinações de janela e distribuição tiveram os valores de erro quadrático médio avaliadas em 5 datas distintas. A média dos erros para o conjunto de datas é apresentada na Tabela 2.</p>
-<table style="width:40%;margin: auto;">
+<table class="table2">
 <caption>Tabela 2 - Média do erro quadrático médio para 5 datas distintas.</caption>
 <colgroup>
-<col style="width: 15%" />
-<col style="width: 15%" />
-<col style="width: 15%" />
+<col style="width: 34%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">

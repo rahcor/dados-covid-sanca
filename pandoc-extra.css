@@ -2,6 +2,14 @@ h1 {text-align: center;}
 
 img {border-radius: 0.382em;}
 
+.table1 {width:80%; margin: auto;}
+.tablelib {width:30%;}
+.table2 {width:50%;margin: auto;}
+
 @media (max-width: 650px) {
     h1{font-size: 1.3em;}
+    
+    .table1 {width:100%;}
+    .tablelib {width:60%;}
+    .table2 {width:100%;}
     }
