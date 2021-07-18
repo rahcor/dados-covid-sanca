@@ -1,4 +1,4 @@
-#  API req ultimos 2 meses (~3000) [BASH/CURL]
+#  API req ultimos dados [BASH/CURL]
 
 shhh <- suppressPackageStartupMessages # It's a library, so shhh!
 shhh(library(tidyverse))
@@ -14,8 +14,10 @@ shhh(library(scales))
 shhh(library(RcppRoll))
 shhh(library(NobBS))
 
-logFile = "nowcast.log"
-path.base = '/home/rafael/workspace/discpln-bayesiana/aplicacao-nowcasting/datasus-elastic/'
+options(warn=-1)
+print(paste0("* LOG-Rnow: ",format(Sys.time(),"%d-%h-%Y, %A às %H:%M")))
+
+path.base = '/home/rafael/workspace/dash-covid-sanca/'
 # Read json files
 now.input.json = as_tibble(fromJSON(paste(path.base, 'db-sintomas.json', sep=''), flatten = TRUE))
 temp.update = fromJSON(paste(path.base, 'update.json', sep=''), flatten = TRUE)
@@ -39,7 +41,6 @@ common1 = arrange(tf.covid[eqid.in.orig,], sourceid)
 common2 = arrange(tf.update[eqid.in.update,], sourceid)
 num.updated = sum(common1$dataAtualizacao != common2$dataAtualizacao)
 if (num.updated != 0){
-  #  1. Trocar datas dos que tem id igual
   ## Always replace old data for matching id, either updated or not
   update.sourceids = tf.update[eqid.in.update,]$sourceid
   for (srcid in update.sourceids) {
@@ -47,8 +48,7 @@ if (num.updated != 0){
   }
 }
 if (num.new != 0){
-  #  2. Incluir os que tem id diferente
-  ## Include new
+  ## Include new ids
   tf.covid = bind_rows(tf.covid,tf.update[!eqid.in.update,])
 }
 
@@ -60,13 +60,11 @@ if (num.updated == 0 && num.new == 0){
 
 # Save db in a json file
 if (must.update){
-#  write(toJSON(tf.covid[order(tf.covid$dataInicioSintomas, decreasing = TRUE),],pretty = 1),
-#              paste(path.base, "db-sintomas.json", sep=''))
-print("Database was written to json...")
+ write(toJSON(tf.covid[order(tf.covid$dataInicioSintomas, decreasing = TRUE),],pretty = 1),
+             paste(path.base, "db-sintomas.json", sep=''))
+ print("Database was written to json.")
 }
 print(paste0("num.updated = ",num.updated, "; num.new = ",num.new))
-#cat(c(paste("num.updated = ",num.updated), paste("num.new = ",num.new)),
-#    file=paste0(path.base,logFile), append=TRUE, sep = "\n")
 
 # Process data to input
 ## Adjust date format
@@ -113,15 +111,9 @@ now.output = NobBS(data = now.inputdf[,c('dataInicioSintomas','dataEncerramento'
                      "conf"=0.80,
                      "beta.priors"=delays.hist$density[1:(now.maxdelay+1)])
                    )
-## Nowcasting error
-# error.window = length(now.output$estimates$onset_date)-now.maxdelay
-# se = 0
-# for (ix in 1:error.window){
-#   er = now.output$estimates$n.reported[ix] - now.output$estimates$estimate[ix]
-#   se = se + er^2
-# }
-# rmse = sqrt(se)
+print("Nowcasting complete!")
 }
+
 if (must.update){
 #  Gerar plot
 pltdata = now.input %>%
@@ -193,6 +185,9 @@ ggplot(pltdata) +
   ggtitle("Nowcasting dos casos diários por data de início dos sintomas")
 
   ggsave(paste(path.base, "nowcasting.png", sep = ''), width = 12, height = 5, dpi = 100)
+  print("Plot saved!")
 }
+
+print("Rscript complete.")
 
 #  Commit imagem [BASH]
