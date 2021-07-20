@@ -95,7 +95,7 @@ delays.hist = hist(as.integer(now.input$dataEncerramento - now.input$dataInicioS
                    main = NULL)
 now.units = "1 day"
 now.windowsize = 45  # [same unit as now.unit] the timespan for nowcasting (obscovid = 40)
-now.trim = 3  # [days] (as.Date increment by days)
+now.trim = 1  # [days] (as.Date increment by days)
 now.maxdelay = 30  ## [same unit as now.unit]  must be less than now.windowsize
 ## Run nowcasting
 now.inputdf = as.data.frame(now.input[order(now.input$dataInicioSintomas),]) # Unordered input throws error: https://github.com/renatocoutinho/NobBS/commit/ded3195b1d2ea424e4b0ceabf59d3c19cf60c893
@@ -121,18 +121,18 @@ pltdata = now.input %>%
   summarise(frequency = n()) %>%
   pad(interval = 'day') %>%
   fill_by_value(value = 0)
-pltdata$avg7 = roll_mean(pltdata$frequency, n = 7, align = "center", fill = NA)
+pltdata$avg = roll_mean(pltdata$frequency, n = 5, align = "center", fill = NA)
 pltdata[pltdata$dataInicioSintomas %in% now.output$estimates$onset_date ,colnames(now.output$estimates)] <- as_tibble(now.output$estimates)
-pltdata$avg7now = roll_mean(pltdata$estimate, n = 7, align = "center", fill = NA)
+pltdata$avgnow = roll_mean(pltdata$estimate, n = 5, align = "center", fill = NA)
 today = max(now.inputdf$dataInicioSintomas, na.rm = TRUE)
 lastyear = as.Date(today - 365)
 #Sys.setenv(LANG = "pt")  # Set lang in the sh calling this script
 cap.update = paste0("* Última atualização: ",format(Sys.time(),"%A, %d-%h-%Y às %H:%M"))
-cap.param = paste0("* Parâmetros de nowcasting: dist=\"NB\"; windowsize = 45; maxdelay = 30; CI = 80%")
+cap.param = paste0("* Parâm. de nowcasting: dist=\"NB\"; window=45; maxdelay=30; trim=1; CI = 80%")
 cap.source = paste0("* Fonte dos dados: https://opendatasus.saude.gov.br/dataset/casos-nacionais",
                     "   /   ",
                     "Fonte da imagem: https://rahcor.github.io/dados-covid-sanca/")
-#x11(); ggplot(pltdata) +
+#x11(width = 12, height = 5); ggplot(pltdata) +
 ggplot(pltdata) +
   theme_bw() +
   theme(plot.background = element_rect(fill="lightgray"),
@@ -153,19 +153,19 @@ ggplot(pltdata) +
   #           alpha = 0.33, fill = 'lightgray') +
   geom_area(aes(x = dataInicioSintomas, y = frequency, fill='Casos diários por início de sintoma', color='Casos diários por início de sintoma'),
             alpha = 0.6) +
-  geom_line(data = pltdata[pltdata$dataInicioSintomas < as.Date(today - 23),],
-            aes(x = dataInicioSintomas, y = avg7, colour='Média móvel de 7 dias centralizada', fill='Média móvel de 7 dias centralizada'),
-            size = 0.75) +
-  geom_ribbon(data = tail(pltdata,30),
+  geom_line(data = pltdata[pltdata$dataInicioSintomas < as.Date(today - 22),],
+            aes(x = dataInicioSintomas, y = avg, colour='Média móvel de 5 dias centralizada', fill='Média móvel de 5 dias centralizada'),
+            lwd = 0.75) +
+  geom_ribbon(data = tail(pltdata,26),
               aes(x=onset_date,
-                  ymin=roll_mean(lower, n = 7, align = "right", fill = NA),
-                  ymax=roll_mean(upper, n = 7, align = "right", fill = NA),
-                  fill = "Nowcasting (média móvel de 7 dias)",
-                  color = "Nowcasting (média móvel de 7 dias)"),
-              alpha=0.8) +
-  geom_line(data = tail(pltdata,30),
+                  ymin=roll_mean(lower, n = 5, align = "center", fill = NA),
+                  ymax=roll_mean(upper, n = 5, align = "center", fill = NA),
+                  fill = "Nowcasting da média móvel (CI 80%)",
+                  color = "Nowcasting da média móvel (CI 80%)"),
+              lwd = 0.85) +
+  geom_line(data = tail(pltdata,26),
             aes(x = onset_date,
-                y = roll_mean(estimate, n = 7, align = "right", fill = NA)),
+                y = roll_mean(estimate, n = 5, align = "center", fill = NA)),
             color = "white", size = 0.35, linetype='dotted') +
   scale_x_date(breaks = "1 month",
                labels = scales::date_format("%b\n%Y"),
@@ -175,12 +175,12 @@ ggplot(pltdata) +
   coord_cartesian(expand = FALSE) +
   scale_colour_manual("", 
                       values = c("Casos diários por início de sintoma"="mistyrose",
-                                 "Média móvel de 7 dias centralizada"="red",
-                                 "Nowcasting (média móvel de 7 dias)"=NA)) +
+                                 "Média móvel de 5 dias centralizada"="red",
+                                 "Nowcasting da média móvel (CI 80%)"="red")) +
   scale_fill_manual("", 
                       values = c("Casos diários por início de sintoma"="mistyrose",
-                                 "Média móvel de 7 dias centralizada"=NA,
-                                 "Nowcasting (média móvel de 7 dias)"="red")) +
+                                 "Média móvel de 5 dias centralizada"=NA,
+                                 "Nowcasting da média móvel (CI 80%)"=rgb(1,0.5,0.5,0.6))) +
   labs(caption = paste0(cap.update,"\n",cap.param,"\n",cap.source)) +
   ggtitle("Nowcasting dos casos diários por data de início dos sintomas")
 
