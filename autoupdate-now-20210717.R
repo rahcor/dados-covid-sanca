@@ -99,9 +99,11 @@ now.trim = 1  # [days] (as.Date increment by days)
 now.maxdelay = 30  ## [same unit as now.unit]  must be less than now.windowsize
 ## Run nowcasting
 now.inputdf = as.data.frame(now.input[order(now.input$dataInicioSintomas),]) # Unordered input throws error: https://github.com/renatocoutinho/NobBS/commit/ded3195b1d2ea424e4b0ceabf59d3c19cf60c893
+#today = max(now.inputdf$dataInicioSintomas, na.rm = TRUE)
+today = as.Date(Sys.Date(), format = "%Y-%m-%d", tz = "America/Sao_Paulo")
 now.output = NobBS(data = now.inputdf[,c('dataInicioSintomas','dataEncerramento')],
-                   now = max(now.inputdf$dataInicioSintomas, na.rm = TRUE) - now.trim,
-                   onset_date = "dataInicioSintomas",
+                   now = as.Date(today - now.trim),
+		   onset_date = "dataInicioSintomas",
                    report_date = "dataEncerramento",
                    units = now.units,
                    moving_window = now.windowsize,
@@ -118,13 +120,16 @@ if (must.update){
 #  Gerar plot
 pltdata = now.input %>%
   group_by(dataInicioSintomas) %>%
-  summarise(frequency = n()) %>%
+  summarise(frequency = n())
+pltdata %<>%
+  add_row(dataInicioSintomas=now.output$estimates$  # Include date with zero report value
+            onset_date[!now.output$estimates$onset_date %in%
+                        pltdata$dataInicioSintomas]) %>%
   pad(interval = 'day') %>%
   fill_by_value(value = 0)
 pltdata$avg = roll_mean(pltdata$frequency, n = 5, align = "center", fill = NA)
 pltdata[pltdata$dataInicioSintomas %in% now.output$estimates$onset_date ,colnames(now.output$estimates)] <- as_tibble(now.output$estimates)
 pltdata$avgnow = roll_mean(pltdata$estimate, n = 5, align = "center", fill = NA)
-today = max(now.inputdf$dataInicioSintomas, na.rm = TRUE)
 lastyear = as.Date(today - 365)
 #Sys.setenv(LANG = "pt")  # Set lang in the sh calling this script
 cap.update = paste0("* Última atualização: ",format(Sys.time(),"%A, %d-%h-%Y às %H:%M"))
@@ -142,7 +147,7 @@ ggplot(pltdata) +
         panel.grid.major = element_line(linetype = 'dotted', size=0.35, color='darkgray'),
         plot.title = element_text(hjust = 0.5),
         axis.title = element_blank(),
-        plot.caption = element_text(hjust=0),
+        plot.caption = element_text(hjust=c(0,1.025)), #,vjust=c(1.25,1.4)),
         legend.title=element_blank(),
         legend.margin=margin(c(1,5,5,5)),
         legend.position = c(0.16, 0.85),
@@ -153,25 +158,26 @@ ggplot(pltdata) +
   #           alpha = 0.33, fill = 'lightgray') +
   geom_area(aes(x = dataInicioSintomas, y = frequency, fill='Casos diários por início de sintoma', color='Casos diários por início de sintoma'),
             alpha = 0.6) +
-  geom_line(data = pltdata[pltdata$dataInicioSintomas < as.Date(today - 22),],
+  geom_line(data = pltdata[pltdata$dataInicioSintomas < as.Date(today - 25),],
             aes(x = dataInicioSintomas, y = avg, colour='Média móvel de 5 dias centralizada', fill='Média móvel de 5 dias centralizada'),
             lwd = 0.75) +
-  geom_ribbon(data = tail(pltdata,26),
+  geom_ribbon(data = tail(pltdata,28),
               aes(x=onset_date,
                   ymin=roll_mean(lower, n = 5, align = "center", fill = NA),
                   ymax=roll_mean(upper, n = 5, align = "center", fill = NA),
                   fill = "Nowcasting da média móvel (CI 80%)",
                   color = "Nowcasting da média móvel (CI 80%)"),
               lwd = 0.85) +
-  geom_line(data = tail(pltdata,26),
+  geom_line(data = tail(pltdata,28),
             aes(x = onset_date,
                 y = roll_mean(estimate, n = 5, align = "center", fill = NA)),
             color = "white", size = 0.35, linetype='dotted') +
   scale_x_date(breaks = "1 month",
-               labels = scales::date_format("%b\n%Y"),
+               labels = scales::label_date_short(),
                minor_breaks = "1 week",
                limits = c(lastyear, today)) + 
-  scale_y_continuous(position = "right", breaks = seq(0,max(pltdata$frequency),by=25)) +
+  scale_y_continuous(position = "right", breaks = seq(0,1.1*max(pltdata$frequency),by=25),
+				limits = c(0,1.1*max(pltdata$frequency))) +
   coord_cartesian(expand = FALSE) +
   scale_colour_manual("", 
                       values = c("Casos diários por início de sintoma"="mistyrose",
@@ -181,7 +187,8 @@ ggplot(pltdata) +
                       values = c("Casos diários por início de sintoma"="mistyrose",
                                  "Média móvel de 5 dias centralizada"=NA,
                                  "Nowcasting da média móvel (CI 80%)"=rgb(1,0.5,0.5,0.6))) +
-  labs(caption = paste0(cap.update,"\n",cap.param,"\n",cap.source)) +
+  labs(caption = c(paste0(cap.update,"\n",cap.param,"\n",cap.source),
+                   format(Sys.time(),"(%d-%h)"))) +
   ggtitle("Nowcasting dos casos diários por data de início dos sintomas")
 
   ggsave(paste(path.base, "nowcasting.png", sep = ''), width = 12, height = 5, dpi = 100)
