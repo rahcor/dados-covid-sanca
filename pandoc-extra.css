@@ -12,4 +12,7 @@ img {border-radius: 0.382em;}
     .table1 {width:100%;}
     .tablelib {width:60%;}
     .table2 {width:100%;}
+    
+    .update-time {font-size: 0.8em;
+        margin-top: 8px;margin-bottom: 8px;}
     }

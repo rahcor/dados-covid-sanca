@@ -1,0 +1,3 @@
+https://rahcor.github.io/dados-covid-sanca/index.html
+https://rahcor.github.io/dados-covid-sanca/nowcasting.html
+https://rahcor.github.io/dados-covid-sanca/nowcasting-detalhes.html
