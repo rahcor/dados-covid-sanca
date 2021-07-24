@@ -21,6 +21,16 @@
 <p>Essa aplicação foi realizada como trabalho para disciplina de Inferência Bayesiana do <a href="http://www.pipges.ufscar.br/">Programa Integrado de Pós Graduação em Estatística (UFSCar/USP)</a> ministrada pelo <a href="https://www.rafaelstern.science/">Professor Rafael B. Stern</a>. Ela foi inspirada pela <a href="https://twitter.com/leosbastos/status/1387562917025959939">publicação do pesquisador Leo Bastos</a>, da Fiocruz, no twitter.</p>
 <hr />
 <h1 id="detalhamento-do-método">Detalhamento do método</h1>
+<details open=""> <summary>Sumário</summary>
+    <ol>
+    <li><a href="#detalhamento-do-método">Introdução</a></li>
+    <li><a href="#modelo-estatístico-bayesiano">Modelo estatístico Bayesiano</a></li>
+    <li><a href="#solução-computacional">Solução computacional</a></li>
+    <li><a href="#tunning-dos-hiperparâmetros">Tunning dos hiperparâmetros</a></li>
+    <li><a href="#fonte-dos-dados-acesso-e-tratamento">Fonte dos dados, acesso e tratamento</a></li>
+    <li><a href="#referências">Referências</a></li>
+    </ol>
+</details>
 <p>Nowcasting consiste na previsão de dados atuais que ainda não foram recebidos devidos à atrasos oriundos de diversas fontes. Nesse caso de aplicação epidemiológica, o dado de interesse pode ser o número presente de pessoas que começaram a apresentar sintomas de determinada doença, que indica a real incidência da doença no momento. As fontes de atraso, as quais são acumulativas, podem ser, por exemplo, o tempo até a pessoa notificar o agente público, o tempo do agende público receber o relato e fazer o registro no sistema de notificação, o tempo até sair o resultado do exame para a doença, entre outras (refletidas nos dados passados).</p>
 <p>O conceito base do nowcasting pode ser visualizado por meio de uma tabela, com cruzamento dos dias do calendário por dias atrasados de recebimento do dado. Um trecho de uma tabela de exemplo é mostrado na Tabela 1. Imagine que hoje é dia 13/jun/2021 e que estão sendo observados dados que chegam até 3 dias atrasados. Desse modo há incerteza sobre quantas pessoas apresentaram sintomas hoje (13/jun) mas que só irão até um agente de saúde amanhã (D+1) ou depois de 2 ou 3 dias (D+2 e D+3). Essa incerteza é representada por ‘?’ em cada célula referente aos dados que chegarão futuramente com atraso. Observe que ela reflete no número total de pessoas com sintoma naquela dia. Os atrasos podem ser maiores que os 3 dias mostrados no exemplo, porém somente foram usados apresentados para facilitar a explicação.</p>
 <table class="table1">
