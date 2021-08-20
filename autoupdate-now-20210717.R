@@ -133,7 +133,7 @@ pltdata$avgnow = roll_mean(pltdata$estimate, n = 5, align = "center", fill = NA)
 lastyear = as.Date(today - 365)
 #Sys.setenv(LANG = "pt")  # Set lang in the sh calling this script
 cap.update = paste0("* Última atualização: ",format(Sys.time(),"%A, %d-%h-%Y às %H:%M"))
-cap.param = paste0("* Parâm. de nowcasting: dist=\"NB\"; window=45; maxdelay=30; trim=1; CI = 80%")
+cap.param = paste0("* Parâmetros do nowcasting (McGough et al 2020): dist=\"NB\"; window=45; maxdelay=30; trim=1; CI=80%")
 cap.source = paste0("* Fonte dos dados: https://opendatasus.saude.gov.br/dataset/casos-nacionais",
                     "   /   ",
                     "Fonte da imagem: https://rahcor.github.io/dados-covid-sanca/")
@@ -158,7 +158,7 @@ ggplot(pltdata) +
   #           alpha = 0.33, fill = 'lightgray') +
   geom_area(aes(x = dataInicioSintomas, y = frequency, fill='Casos diários por início de sintoma', color='Casos diários por início de sintoma'),
             alpha = 0.6) +
-  geom_line(data = pltdata[pltdata$dataInicioSintomas < as.Date(today - 25),],
+  geom_line(data = pltdata[pltdata$dataInicioSintomas < as.Date(today - 24),],
             aes(x = dataInicioSintomas, y = avg, colour='Média móvel de 5 dias centralizada', fill='Média móvel de 5 dias centralizada'),
             lwd = 0.75) +
   geom_ribbon(data = tail(pltdata,28),
