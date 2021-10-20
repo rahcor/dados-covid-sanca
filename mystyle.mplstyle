@@ -1,0 +1,29 @@
+# https://github.com/matplotlib/matplotlib/blob/v3.2.1/matplotlibrc.template
+font.size: 14
+font.family  : sans-serif
+font.sans-serif : Nunito, DejaVu Sans, Bitstream Vera Sans, Computer Modern Sans Serif, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
+
+savefig.dpi       : 100      ## figure dots per inch or 'figure'
+savefig.bbox      : tight    ## {tight, standard}
+figure.figsize     : 15, 5  ## figure size in inches
+axes.facecolor     : white   ## axes background color
+figure.facecolor    : lightgray
+savefig.facecolor : lightgray       ## figure facecolor when saving
+axes.labelpad      : 10.0     ## pad between axes and title in points
+axes.titlepad      : 10.0     ## pad between axes and title in points
+axes.formatter.use_locale : True  ## When True, format tick labels
+
+xtick.major.top     : True    ## draw x axis top major ticks
+xtick.major.size    : 10     ## major tick size in points
+xtick.direction     : inout     ## direction: {in, out, inout}
+
+ytick.left          : False    ## draw ticks on the left side
+ytick.right         : True   ## draw ticks on the right side
+ytick.labelleft     : False    ## draw tick labels on the left side
+ytick.labelright    : True   ## draw tick labels on the right side
+ytick.major.size    : 5     ## major tick size in points
+ytick.direction     : out     ## direction: {in, out, inout}
+
+legend.frameon       : True     ## if True, draw the legend on a background patch
+legend.facecolor     : white
+legend.framealpha    : 1      ## legend patch transparency
