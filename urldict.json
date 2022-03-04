@@ -1,4 +1,12 @@
 {
+    "20220304": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-04-03-2022-boletim-no-552-ano/",
+        "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2022/03/552_boletim_04032022.png#id=12317&post_id=12316"
+    },
+    "20220303": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-03-03-2022-boletim-no-551-ano/",
+        "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2022/03/551_boletim_03032022.png#id=12305&post_id=12298"
+    },
     "20220228": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-28-02-2022-boletim-no-550-ano/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2022/02/boletim550-28-02.png#id=12296&post_id=12295"
