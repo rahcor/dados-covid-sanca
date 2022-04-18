@@ -1,4 +1,12 @@
 {
+    "20220418": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-18-04-2022-boletim-no-582-ano-3/",
+        "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2022/04/582_boletim_18042022.png#id=12587&post_id=12586"
+    },
+    "20220414": {
+        "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-14-04-2022-boletim-no-581-ano-3/",
+        "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2022/04/581_boletim_14042022.png#id=12584&post_id=12583"
+    },
     "20220413": {
         "pageurl": "http://coronavirus.saocarlos.sp.gov.br/numeros-covid-19-sao-carlos-13-04-2022-boletim-no-580-ano-3/",
         "imagesrc": "http://coronavirus.saocarlos.sp.gov.br/wp-content/uploads/2022/04/580_boletim_13042022.png#id=12566&post_id=12565"
