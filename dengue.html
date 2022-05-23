@@ -4,32 +4,22 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Gráficos da covid em São Carlos-SP</title>
+  <title>Gráficos da dengue em São Carlos-SP</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css" />
   <link rel="stylesheet" href="pandoc-extra.css" />
   <meta name="google-site-verification" content="waHWISVtE2nK_hhdqNQ8ForZrAb6Btl5Yf7FftP88GA" />
 </head>
 <body>
-    <nav>
-      <div style="text-align: right;">
-        <a href="./nowcasting.html">Ir para a página de nowcasting por data de início dos sintomas --></a>
-      </div>
-      <div style="text-align: left;">
-        <a href="./dengue.html"><-- Ir para a página de casos de dengue</a>
-      </div>
-    </nav>
+    <nav style="text-align: right;"><a href="./index.html">Ir para a página de casos de covid --></a></nav>
       <header>
-        <h1 class="title">Gráficos da covid em São Carlos-SP</h1>
+        <h1 class="title">Gráficos da dengue em São Carlos-SP</h1>
       </header>
 <!--      <p class="update-time" style="text-align: center;"><strong style="color: red">Atenção!</strong> A quantidade de testes foi reduzida em 24/01/2022 (<a href="http://coronavirus.saocarlos.sp.gov.br/nota-testes-covid-19/">ver notícia</a>) e retornou ao normal em 02/02/2022 (<a href="http://coronavirus.saocarlos.sp.gov.br/sao-carlos-recebe-mais-2-150-testes-antigenos-para-diagnosticar-covid-19/">ver notícia</a>).</p>-->
-  <p class="update-time" style="text-align: center;">(Atualização diária às 18h30, exceto fim de semana)</p>
-<p><img src="casos-diarios.jpg" /></p>
-<p><img src="obitos-diarios.jpg" /></p>
+  <p class="update-time" style="text-align: center;">(Atualização toda segunda-feira às 18h30)</p>
+<p><img src="dengue-nowcasting.png" /></p>
 <hr />
-<p>Dados coletados das imagens dos boletins do site da prefeitura: <a href="http://coronavirus.saocarlos.sp.gov.br/">http://coronavirus.saocarlos.sp.gov.br</a><br />
-Script em Python de coleta dos dados e atualização dos gráficos: <a href="autoupdate-20220110.py" class="uri">autoupdate-20210110.py</a><br />
-Arquivo com a fonte de cada dado coletado: <a href="urldict.json" class="uri">urldict.json</a><br />
-Arquivo com todos os dados coletados: <a href="db.json" class="uri">db.json</a>
+<p>Dados coletados da API do InfoDengue/Fiocruz-FGV: <a href="https://info.dengue.mat.br/services/api">https://info.dengue.mat.br/services/api</a><br />
+Script em R de coleta dos dados e geração dos gráficos: <a href="autoupdate-dengue-20220522.R" class="uri">autoupdate-dengue-20220522.R</a><br />
 </p>
 <hr />
 <p>Construído com <a href="https://www.python.org/">python e bibliotecas</a>, <a href="https://pandoc.org/">pandoc</a> e <a href="https://github.com/kognise/water.css">water.css</a>.</p>
