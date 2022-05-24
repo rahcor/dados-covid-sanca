@@ -8,6 +8,7 @@ import scipy as sp
 import matplotlib.pyplot as plt
 import matplotlib.image as img
 import matplotlib.dates as mdates
+import matplotlib.ticker as mtick
 import pandas as pd
 import seaborn as sns
 
@@ -199,11 +200,19 @@ if have_new :
 
 def imgcrop(img, target, date):  # crop_box = (left, up, right, bottom)
     w, h = img.size
-    if date >= 20210531:
+    if date > 20210531:
         if target == 'casos':
             crop_box = (w*570/800, h*164/800, w*(570+98)/800, h*(164+25)/800)  
         elif target == 'obitos':
             crop_box = (w*711/800, h*535/800, w*(711+70)/800, h*(535+28)/800)
+        elif target == 'adultos-sus-total':
+            crop_box = (w*366/800, h*203/800, w*(366+33)/800, h*(203+17)/800)  
+        elif target == 'adultos-privado-total':
+            crop_box = (w*365/800, h*495/800, w*(365+35)/800, h*(495+17)/800)
+        elif target == 'infantil-sus-total':
+            crop_box = (w*367/800, h*287/800, w*(367+38)/800, h*(287+21)/800)  
+        elif target == 'infantil-privado-total':
+            crop_box = (w*367/800, h*579/800, w*(367+38)/800, h*(579+20)/800)
         else:
             raise Exception("Target not found on image for OCR detection.")
 
@@ -270,8 +279,15 @@ def imgcrop(img, target, date):  # crop_box = (left, up, right, bottom)
 
 
 def imgproc(imgcrop, target, date):
-    imgproc = Image.Image.convert(imgcrop, mode='L')  # grayscale image
-    imgproc = ImageOps.invert(imgproc)  # invert colos
+    if target in ['adultos-sus-total', 'adultos-privado-total',
+                           'infantil-sus-total', 'infantil-privado-total']:
+        imgproc = imgcrop.resize([i*3 for i in imgcrop.size])
+        imgproc = Image.Image.convert(imgproc, mode='L')  # grayscale image
+        #plt.scatter(range(256),imgproc.histogram())
+        imgproc = imgproc.point( lambda p: 255 if p > 100 else 0 )
+    else:
+        imgproc = Image.Image.convert(imgcrop, mode='L')  # grayscale image
+        imgproc = ImageOps.invert(imgproc)  # invert colos
     
     if date <= 20200407 :
         if target != 'obitos':
@@ -321,14 +337,20 @@ def ocrnumberproc(ocrnumber, target, date):
 
 with open(fileroot+'db.json', 'r') as f:
     dbdict = json.load(f)
-dbdict
+#dbdict
+with open(fileroot+'db-hosp.json', 'r') as f:
+    dbhospdict = json.load(f)
 
+pop_ibge_total = 221950
+pop_ibge_infantil = 6636+6516+7078+6792+0.6*(8234+7854)# Até 13 anos
+pop_ibge_adulto = pop_ibge_total - pop_ibge_infantil
 
 # In[ ]:
 
 
 if have_new :
     dbdict_update = {}
+    dbhospdict_update = {}
     for date,urls in urldict_update.items():
         date = int(date)
 
@@ -336,24 +358,32 @@ if have_new :
             imgsrc = Image.open(fileroot+"images/"+str(date)+".jpg")
 
             dbdict_update[date] = {}
-            for target in ['obitos', 'casos']:
+            dbhospdict_update[date] = {}
+            for target in ['obitos', 'casos', 'adultos-sus-total', 'adultos-privado-total',
+                           'infantil-sus-total', 'infantil-privado-total']:
                 img = imgcrop(imgsrc, target, date)
                 imgfinal = imgproc(img, target, date)
 
                 ocrraw, ocrvalue = ocrgetnumber(imgfinal)
                 ocrvalue = ocrnumberproc(ocrvalue, target, date)
 
-                dbdict_update[date].update({target: ocrvalue})
+                if target in ['obitos', 'casos']:
+                    dbdict_update[date].update({target: ocrvalue})
+                else:
+                    dbhospdict_update[date].update({target: ocrvalue})
                 print("OCR for %d (%s) = %d from raw %s" % (date, target, ocrvalue, ocrraw))
                 #imgfinal.show()
-
+            total_hosp = sum(dbhospdict_update[date].values())
+            total_hosp_adulto = dbhospdict_update[date]['adultos-sus-total'] + dbhospdict_update[date]['adultos-privado-total']
+            total_hosp_infantil = dbhospdict_update[date]['infantil-sus-total'] + dbhospdict_update[date]['infantil-privado-total']
+            
+            dbhospdict_update[date].update({'total-hosp': total_hosp})
+            dbhospdict_update[date].update({'total-hosp-adulto': total_hosp_adulto})
+            dbhospdict_update[date].update({'total-hosp-infantil': total_hosp_infantil})
+            dbhospdict_update[date].update({'frac-hosp-adulto': total_hosp_adulto/pop_ibge_adulto})
+            dbhospdict_update[date].update({'frac-hosp-infantil': total_hosp_infantil/pop_ibge_infantil})
 
 # Update db file
-
-# In[ ]:
-
-if have_new :
-    dbdict = {**dbdict_update, **dbdict}
 
 # temp solution for days with no report autoupdate script
 # see if there is no data for yesterday, then copy numbers
@@ -369,6 +399,12 @@ if yesterday not in dbdict:
 else:
     yesterday_none = False
 
+
+if have_new :
+    dbdict = {**dbdict_update, **dbdict}
+    dbhospdict = {**dbhospdict_update, **dbhospdict}
+
+
 # In[ ]:
 
 
@@ -377,7 +413,9 @@ if have_new or yesterday_none:
     must_update = True
     with open(fileroot+'db.json', 'w') as f:
         json.dump(dbdict, f, indent = 4)
-if yesterday_none:
+    with open(fileroot+'db-hosp.json', 'w') as f:
+        json.dump(dbhospdict, f, indent = 4)
+if yesterday_none and not have_new:
     must_update = False
 
 
@@ -398,7 +436,7 @@ if have_new :
     print("NEW: Total cases: ", df['casos'][0]," / Total deaths: ", df['obitos'][0])
 else:
     last_update_date = df.index[0]
-print("Last updated: ", last_update_date)
+#print("Last updated: ", last_update_date)
 
 
 # In[ ]:
@@ -496,10 +534,85 @@ plt.figtext(0.125, -0.025, footnote_text1)
 #plt.show()
 plt.savefig(fileroot+'pessoal-casos-circulantes.jpg')
 plt.clf()
-plt.close()
+
+
 
 # In[ ]:
 
+df = pd.DataFrame.from_dict(dbhospdict, orient='index')
+df.index = pd.to_datetime(df.index, format='%Y%m%d')
+
+if have_new :
+    print("NEW: Total hosp adult: ", df['total-hosp-adulto'][0],
+                " / Total hosp children: ", df['total-hosp-infantil'][0])
+else:
+    last_update_date = df.index[0]
+print("Last updated: ", last_update_date)
+
+daymax = datetime.date.today()
+daymin = datetime.date(daymax.year-1,daymax.month,daymax.day)
+daymaxfds = datetime.date.today() + datetime.timedelta(days=6-datetime.date.today().weekday())
+
+df['total-hosp'] = df[df['total-hosp'].index > np.datetime64(daymin)]['total-hosp']
+
+df['frac-hosp-adulto'] = df[df['frac-hosp-adulto'].index > np.datetime64(daymin)]['frac-hosp-adulto']
+df['frac-hosp-infantil'] = df[df['frac-hosp-infantil'].index > np.datetime64(daymin)]['frac-hosp-infantil']
 
 
+df = df.asfreq('d', method = 'ffill')
+
+# ax = df['total-hosp'].plot(color='mistyrose', kind='area', # stacked=False,
+#                               title='Casos diários por data de divulgação no site da prefeitura',
+#                               label='Casos diários')
+ax = df['total-hosp'].plot(color='brown', linewidth=2.25,
+                              title='Número total de hospitalizados por data de divulgação no site da prefeitura',
+                              label='Número total de hospitalizados')
+ax = df['total-hosp'].plot(linewidth=0, marker=4, markersize=11,
+                        markevery=[-1], color=(0.5, 0, 0, 0.2),
+                        label="Último dado: "+last_update_date.strftime('%A, %d-%b-%Y'))
+
+#ax.set_xlim(xmin=daymin, xmax=daymaxfds)
+ax.set_xlim(xmin=daymin, xmax=daymax)
+ax.set_ylim(ymin=0)
+ax.set_axisbelow(False)
+ax.lines[1].set_clip_on(False)
+ax.legend()
+footnote_text1 = "* Última atualização: "+ datetime.datetime.now().strftime('%A, %d-%h-%Y às %H:%M')
+footnote_text2 = "* Fonte dos dados: " + urlroot[:-1] + "   /   " + \
+                    "Fonte da imagem: https://rahcor.github.io/dados-covid-sanca/"
+plt.figtext(0.125, 0.02, "2021")
+plt.figtext(0.875, -0.02, "("+last_update_date.strftime('%d-%h')+")")
+plt.figtext(0.125, -0.035, footnote_text1)
+plt.figtext(0.125, -0.085, footnote_text2)
+#plt.show()
+if must_update:
+    plt.savefig(fileroot+'hosp-total.jpg')
+plt.savefig(fileroot+'pessoal-hosp-total.jpg')
+plt.clf()
+
+
+ax = df['frac-hosp-adulto'].plot(color='green', linewidth=2.25,
+        title='Fração da população hospitalizada (nº hospitalizados/população da categoria)',
+        label="Adulto")
+ax = df['frac-hosp-infantil'].plot(color='blue', linewidth=2.25,
+        label="Infantil (até 13 anos)")
+#ax.set_xlim(xmin=daymin, xmax=daymaxfds)
+ax.set_xlim(xmin=daymin, xmax=daymax)
+ax.set_ylim(ymin=0)
+ax.yaxis.set_major_formatter(mtick.FormatStrFormatter('%.2e'))
+ax.set_axisbelow(False)
+ax.lines[1].set_clip_on(False)
+ax.legend()
+plt.figtext(0.125, 0.02, "2021")
+plt.figtext(0.875, -0.02, "("+last_update_date.strftime('%d-%h')+")")
+footnote_text1add = "  /  População (IBGE): Infantil até 13 anos = " + str(int(pop_ibge_infantil)) + \
+                    " ; Adulto = " + str(int(pop_ibge_adulto))
+plt.figtext(0.125, -0.035, footnote_text1 + footnote_text1add)
+plt.figtext(0.125, -0.085, footnote_text2)
+#plt.show()
+if must_update:
+    plt.savefig(fileroot+'hosp-idade.jpg')
+plt.savefig(fileroot+'pessoal-hosp-idade.jpg')
+plt.clf()
+plt.close()
 
