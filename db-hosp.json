@@ -1,4 +1,15 @@
 {
+    "20220603": {
+        "adultos-sus-total": 0,
+        "adultos-privado-total": 3,
+        "infantil-sus-total": 2,
+        "infantil-privado-total": 0,
+        "total-hosp": 5,
+        "total-hosp-adulto": 3,
+        "total-hosp-infantil": 2,
+        "frac-hosp-adulto": 1.619212932977538e-05,
+        "frac-hosp-infantil": 5.4533358055122316e-05
+    },
     "20220602": {
         "adultos-sus-total": 7,
         "adultos-privado-total": 2,
