@@ -3,2695 +3,1470 @@
         "adultos-sus-total": 8,
         "adultos-privado-total": 8,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 18,
-        "total-hosp-adulto": 16,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 1.619212932977538e-05,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20220602": {
         "adultos-sus-total": 7,
         "adultos-privado-total": 12,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 19,
-        "total-hosp-adulto": 19,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220601": {
         "adultos-sus-total": 9,
         "adultos-privado-total": 13,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 22,
-        "total-hosp-adulto": 22,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 6.476851731910152e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220531": {
         "adultos-sus-total": 7,
         "adultos-privado-total": 11,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 19,
-        "total-hosp-adulto": 18,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 3.778163510280923e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20220530": {
         "adultos-sus-total": 8,
         "adultos-privado-total": 8,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 16,
-        "total-hosp-adulto": 16,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 8.635802309213537e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220527": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 7,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 12,
-        "total-hosp-adulto": 12,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 6.476851731910152e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220526": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 7,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 13,
-        "total-hosp-adulto": 13,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 7.016589376235998e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220525": {
         "adultos-sus-total": 7,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 13,
-        "total-hosp-adulto": 13,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 7.016589376235998e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220524": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 10,
-        "total-hosp-adulto": 10,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 5.397376443258461e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220523": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220520": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 7,
-        "total-hosp-adulto": 7,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.778163510280923e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220519": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 5,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220518": {
         "adultos-sus-total": 3,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 6,
-        "total-hosp-adulto": 6,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.238425865955076e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220517": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 1,
-        "total-hosp": 8,
-        "total-hosp-adulto": 7,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 3.778163510280923e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 1
     },
     "20220516": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220513": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 7,
-        "total-hosp-adulto": 7,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.778163510280923e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220512": {
         "adultos-sus-total": 3,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 7,
-        "total-hosp-adulto": 7,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.778163510280923e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220511": {
         "adultos-sus-total": 3,
         "adultos-privado-total": 5,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220510": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 5,
-        "total-hosp-adulto": 5,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 2.6986882216292304e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220509": {
         "adultos-sus-total": 3,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 6,
-        "total-hosp-adulto": 6,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.238425865955076e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220506": {
         "adultos-sus-total": 3,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 5,
-        "total-hosp-adulto": 5,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 2.6986882216292304e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220505": {
         "adultos-sus-total": 3,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 1,
-        "total-hosp": 6,
-        "total-hosp-adulto": 5,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 2.6986882216292304e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 1
     },
     "20220504": {
         "adultos-sus-total": 1,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 1,
-        "total-hosp": 3,
-        "total-hosp-adulto": 2,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 1.0794752886516921e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 1
     },
     "20220503": {
         "adultos-sus-total": 1,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 1,
-        "total-hosp": 3,
-        "total-hosp-adulto": 2,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 1.0794752886516921e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 1
     },
     "20220502": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 1,
-        "total-hosp": 4,
-        "total-hosp-adulto": 3,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 1.619212932977538e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 1
     },
     "20220429": {
         "adultos-sus-total": 1,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 1,
-        "total-hosp": 3,
-        "total-hosp-adulto": 2,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 1.0794752886516921e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 1
     },
     "20220428": {
         "adultos-sus-total": 1,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 1,
-        "total-hosp": 3,
-        "total-hosp-adulto": 2,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 1.0794752886516921e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 1
     },
     "20220427": {
         "adultos-sus-total": 1,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 1,
-        "total-hosp": 3,
-        "total-hosp-adulto": 2,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 1.0794752886516921e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 1
     },
     "20220426": {
         "adultos-sus-total": 1,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 1,
-        "total-hosp": 3,
-        "total-hosp-adulto": 2,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 1.0794752886516921e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 1
     },
     "20220425": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 1,
-        "total-hosp": 4,
-        "total-hosp-adulto": 3,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 1.619212932977538e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 1
     },
     "20220420": {
         "adultos-sus-total": 0,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 1,
-        "total-hosp-adulto": 1,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 5.397376443258461e-06,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220419": {
         "adultos-sus-total": 1,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 2,
-        "total-hosp-adulto": 2,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 1.0794752886516921e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220418": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 3,
-        "total-hosp-adulto": 3,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 1.619212932977538e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220414": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 4,
-        "total-hosp-adulto": 4,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 2.1589505773033843e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220413": {
         "adultos-sus-total": 3,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 4,
-        "total-hosp-adulto": 4,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 2.1589505773033843e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220412": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 3,
-        "total-hosp-adulto": 3,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 1.619212932977538e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220411": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 3,
-        "total-hosp-adulto": 3,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 1.619212932977538e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220408": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 4,
-        "total-hosp-adulto": 4,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 2.1589505773033843e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220407": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 4,
-        "total-hosp-adulto": 4,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 2.1589505773033843e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220406": {
         "adultos-sus-total": 1,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 3,
-        "total-hosp-adulto": 3,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 1.619212932977538e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220405": {
         "adultos-sus-total": 1,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 3,
-        "total-hosp-adulto": 3,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 1.619212932977538e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220404": {
         "adultos-sus-total": 0,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 2,
-        "total-hosp-adulto": 2,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 1.0794752886516921e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220401": {
         "adultos-sus-total": 0,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 3,
-        "total-hosp-adulto": 3,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 1.619212932977538e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220331": {
         "adultos-sus-total": 0,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 2,
-        "total-hosp-adulto": 2,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 1.0794752886516921e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220330": {
         "adultos-sus-total": 0,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 2,
-        "total-hosp-adulto": 2,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 1.0794752886516921e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220329": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 5,
-        "total-hosp-adulto": 5,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 2.6986882216292304e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220328": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 5,
-        "total-hosp-adulto": 5,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 2.6986882216292304e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220325": {
         "adultos-sus-total": 3,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 6,
-        "total-hosp-adulto": 6,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.238425865955076e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220324": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 7,
-        "total-hosp-adulto": 7,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.778163510280923e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220323": {
         "adultos-sus-total": 3,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 6,
-        "total-hosp-adulto": 6,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.238425865955076e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220322": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 6,
-        "total-hosp-adulto": 6,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.238425865955076e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220321": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 6,
-        "total-hosp-adulto": 6,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.238425865955076e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220318": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 1,
-        "total-hosp": 8,
-        "total-hosp-adulto": 7,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 3.778163510280923e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 1
     },
     "20220317": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 3,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 7,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 3.778163510280923e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20220316": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 4,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20220315": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 5,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 11,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20220314": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 5,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 11,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20220311": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 5,
         "infantil-sus-total": 3,
-        "infantil-privado-total": 0,
-        "total-hosp": 12,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 3,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 8.180003708268348e-05
+        "infantil-privado-total": 0
     },
     "20220310": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 5,
         "infantil-sus-total": 4,
-        "infantil-privado-total": 0,
-        "total-hosp": 14,
-        "total-hosp-adulto": 10,
-        "total-hosp-infantil": 4,
-        "frac-hosp-adulto": 5.397376443258461e-05,
-        "frac-hosp-infantil": 0.00010906671611024463
+        "infantil-privado-total": 0
     },
     "20220309": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 6,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 13,
-        "total-hosp-adulto": 11,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 5.9371140875843066e-05,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20220308": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 6,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 13,
-        "total-hosp-adulto": 12,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 6.476851731910152e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20220307": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 6,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 14,
-        "total-hosp-adulto": 12,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 6.476851731910152e-05,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20220304": {
         "adultos-sus-total": 10,
         "adultos-privado-total": 4,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 16,
-        "total-hosp-adulto": 14,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 7.556327020561845e-05,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20220303": {
         "adultos-sus-total": 11,
         "adultos-privado-total": 5,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 17,
-        "total-hosp-adulto": 16,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 8.635802309213537e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20220228": {
         "adultos-sus-total": 10,
         "adultos-privado-total": 8,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 20,
-        "total-hosp-adulto": 18,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 9.715277597865229e-05,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20220225": {
         "adultos-sus-total": 12,
         "adultos-privado-total": 10,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 24,
-        "total-hosp-adulto": 22,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 0.00011874228175168613,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20220224": {
         "adultos-sus-total": 11,
         "adultos-privado-total": 10,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 21,
-        "total-hosp-adulto": 21,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00011334490530842767,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220223": {
         "adultos-sus-total": 11,
         "adultos-privado-total": 10,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 21,
-        "total-hosp-adulto": 21,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00011334490530842767,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220222": {
         "adultos-sus-total": 13,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 19,
-        "total-hosp-adulto": 19,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00010255015242191074,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220221": {
         "adultos-sus-total": 14,
         "adultos-privado-total": 8,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 22,
-        "total-hosp-adulto": 22,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00011874228175168613,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220218": {
         "adultos-sus-total": 19,
         "adultos-privado-total": 11,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 1,
-        "total-hosp": 32,
-        "total-hosp-adulto": 30,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 0.00016192129329775382,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 1
     },
     "20220217": {
         "adultos-sus-total": 17,
         "adultos-privado-total": 10,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 1,
-        "total-hosp": 28,
-        "total-hosp-adulto": 27,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.00014572916396797842,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 1
     },
     "20220216": {
         "adultos-sus-total": 16,
         "adultos-privado-total": 9,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 1,
-        "total-hosp": 27,
-        "total-hosp-adulto": 25,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 0.0001349344110814615,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 1
     },
     "20220215": {
         "adultos-sus-total": 16,
         "adultos-privado-total": 9,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 27,
-        "total-hosp-adulto": 25,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 0.0001349344110814615,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20220214": {
         "adultos-sus-total": 17,
         "adultos-privado-total": 8,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 1,
-        "total-hosp": 28,
-        "total-hosp-adulto": 25,
-        "total-hosp-infantil": 3,
-        "frac-hosp-adulto": 0.0001349344110814615,
-        "frac-hosp-infantil": 8.180003708268348e-05
+        "infantil-privado-total": 1
     },
     "20220211": {
         "adultos-sus-total": 15,
         "adultos-privado-total": 8,
         "infantil-sus-total": 4,
-        "infantil-privado-total": 0,
-        "total-hosp": 27,
-        "total-hosp-adulto": 23,
-        "total-hosp-infantil": 4,
-        "frac-hosp-adulto": 0.0001241396581949446,
-        "frac-hosp-infantil": 0.00010906671611024463
+        "infantil-privado-total": 0
     },
     "20220210": {
         "adultos-sus-total": 15,
         "adultos-privado-total": 13,
         "infantil-sus-total": 4,
-        "infantil-privado-total": 0,
-        "total-hosp": 32,
-        "total-hosp-adulto": 28,
-        "total-hosp-infantil": 4,
-        "frac-hosp-adulto": 0.0001511265404112369,
-        "frac-hosp-infantil": 0.00010906671611024463
+        "infantil-privado-total": 0
     },
     "20220208": {
         "adultos-sus-total": 18,
         "adultos-privado-total": 12,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 31,
-        "total-hosp-adulto": 30,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.00016192129329775382,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20220207": {
         "adultos-sus-total": 18,
         "adultos-privado-total": 14,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 33,
-        "total-hosp-adulto": 32,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.00017271604618427074,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20220204": {
         "adultos-sus-total": 14,
         "adultos-privado-total": 16,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 2,
-        "total-hosp": 33,
-        "total-hosp-adulto": 30,
-        "total-hosp-infantil": 3,
-        "frac-hosp-adulto": 0.00016192129329775382,
-        "frac-hosp-infantil": 8.180003708268348e-05
+        "infantil-privado-total": 2
     },
     "20220203": {
         "adultos-sus-total": 15,
         "adultos-privado-total": 13,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 2,
-        "total-hosp": 31,
-        "total-hosp-adulto": 28,
-        "total-hosp-infantil": 3,
-        "frac-hosp-adulto": 0.0001511265404112369,
-        "frac-hosp-infantil": 8.180003708268348e-05
+        "infantil-privado-total": 2
     },
     "20220202": {
         "adultos-sus-total": 18,
         "adultos-privado-total": 16,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 2,
-        "total-hosp": 38,
-        "total-hosp-adulto": 34,
-        "total-hosp-infantil": 4,
-        "frac-hosp-adulto": 0.00018351079907078766,
-        "frac-hosp-infantil": 0.00010906671611024463
+        "infantil-privado-total": 2
     },
     "20220201": {
         "adultos-sus-total": 18,
         "adultos-privado-total": 14,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 2,
-        "total-hosp": 36,
-        "total-hosp-adulto": 32,
-        "total-hosp-infantil": 4,
-        "frac-hosp-adulto": 0.00017271604618427074,
-        "frac-hosp-infantil": 0.00010906671611024463
+        "infantil-privado-total": 2
     },
     "20220131": {
         "adultos-sus-total": 15,
         "adultos-privado-total": 16,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 33,
-        "total-hosp-adulto": 31,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 0.00016731866974101228,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20220128": {
         "adultos-sus-total": 18,
         "adultos-privado-total": 8,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 27,
-        "total-hosp-adulto": 26,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.00014033178752471996,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20220127": {
         "adultos-sus-total": 17,
         "adultos-privado-total": 8,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 27,
-        "total-hosp-adulto": 25,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 0.0001349344110814615,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20220126": {
         "adultos-sus-total": 17,
         "adultos-privado-total": 12,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 31,
-        "total-hosp-adulto": 29,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 0.00015652391685449537,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20220125": {
         "adultos-sus-total": 16,
         "adultos-privado-total": 13,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 31,
-        "total-hosp-adulto": 29,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 0.00015652391685449537,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20220124": {
         "adultos-sus-total": 15,
         "adultos-privado-total": 16,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 32,
-        "total-hosp-adulto": 31,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.00016731866974101228,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20220121": {
         "adultos-sus-total": 17,
         "adultos-privado-total": 13,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 1,
-        "total-hosp": 32,
-        "total-hosp-adulto": 30,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 0.00016192129329775382,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 1
     },
     "20220120": {
         "adultos-sus-total": 16,
         "adultos-privado-total": 9,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 1,
-        "total-hosp": 27,
-        "total-hosp-adulto": 25,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 0.0001349344110814615,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 1
     },
     "20220119": {
         "adultos-sus-total": 14,
         "adultos-privado-total": 9,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 24,
-        "total-hosp-adulto": 23,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.0001241396581949446,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20220117": {
         "adultos-sus-total": 16,
         "adultos-privado-total": 6,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 1,
-        "total-hosp": 25,
-        "total-hosp-adulto": 22,
-        "total-hosp-infantil": 3,
-        "frac-hosp-adulto": 0.00011874228175168613,
-        "frac-hosp-infantil": 8.180003708268348e-05
+        "infantil-privado-total": 1
     },
     "20220114": {
         "adultos-sus-total": 12,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 1,
-        "total-hosp": 19,
-        "total-hosp-adulto": 18,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 9.715277597865229e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 1
     },
     "20220113": {
         "adultos-sus-total": 12,
         "adultos-privado-total": 3,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 1,
-        "total-hosp": 17,
-        "total-hosp-adulto": 15,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 8.096064664887691e-05,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 1
     },
     "20220112": {
         "adultos-sus-total": 9,
         "adultos-privado-total": 4,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 1,
-        "total-hosp": 16,
-        "total-hosp-adulto": 13,
-        "total-hosp-infantil": 3,
-        "frac-hosp-adulto": 7.016589376235998e-05,
-        "frac-hosp-infantil": 8.180003708268348e-05
+        "infantil-privado-total": 1
     },
     "20220111": {
         "adultos-sus-total": 12,
         "adultos-privado-total": 3,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 1,
-        "total-hosp": 18,
-        "total-hosp-adulto": 15,
-        "total-hosp-infantil": 3,
-        "frac-hosp-adulto": 8.096064664887691e-05,
-        "frac-hosp-infantil": 8.180003708268348e-05
+        "infantil-privado-total": 1
     },
     "20220110": {
         "adultos-sus-total": 11,
         "adultos-privado-total": 3,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 1,
-        "total-hosp": 16,
-        "total-hosp-adulto": 14,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 7.556327020561845e-05,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 1
     },
     "20220106": {
         "adultos-sus-total": 8,
         "adultos-privado-total": 5,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 13,
-        "total-hosp-adulto": 13,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 7.016589376235998e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220105": {
         "adultos-sus-total": 9,
         "adultos-privado-total": 5,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 14,
-        "total-hosp-adulto": 14,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 7.556327020561845e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20220104": {
         "adultos-sus-total": 8,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 14,
-        "total-hosp-adulto": 14,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 7.556327020561845e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211230": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 7,
-        "total-hosp-adulto": 7,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.778163510280923e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211229": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211228": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211227": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 6,
-        "total-hosp-adulto": 6,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.238425865955076e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211223": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 6,
-        "total-hosp-adulto": 6,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.238425865955076e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211222": {
         "adultos-sus-total": 3,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 5,
-        "total-hosp-adulto": 5,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 2.6986882216292304e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211221": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 4,
-        "total-hosp-adulto": 4,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 2.1589505773033843e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211220": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 4,
-        "total-hosp-adulto": 4,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 2.1589505773033843e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211217": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 6,
-        "total-hosp-adulto": 6,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.238425865955076e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211216": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 6,
-        "total-hosp-adulto": 6,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.238425865955076e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211215": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 4,
-        "total-hosp-adulto": 4,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 2.1589505773033843e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211214": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 7,
-        "total-hosp-adulto": 7,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.778163510280923e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211213": {
         "adultos-sus-total": 1,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 3,
-        "total-hosp-adulto": 3,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 1.619212932977538e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211210": {
         "adultos-sus-total": 1,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 2,
-        "total-hosp-adulto": 2,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 1.0794752886516921e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211209": {
         "adultos-sus-total": 1,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 2,
-        "total-hosp-adulto": 2,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 1.0794752886516921e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211207": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 1,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 3,
-        "total-hosp-adulto": 3,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 1.619212932977538e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211206": {
         "adultos-sus-total": 3,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 5,
-        "total-hosp-adulto": 5,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 2.6986882216292304e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211203": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211202": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211201": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211130": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211129": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211126": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211125": {
         "adultos-sus-total": 7,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 10,
-        "total-hosp-adulto": 10,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 5.397376443258461e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211124": {
         "adultos-sus-total": 7,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 10,
-        "total-hosp-adulto": 10,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 5.397376443258461e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211123": {
         "adultos-sus-total": 7,
         "adultos-privado-total": 3,
         "infantil-sus-total": 5,
-        "infantil-privado-total": 0,
-        "total-hosp": 15,
-        "total-hosp-adulto": 10,
-        "total-hosp-infantil": 5,
-        "frac-hosp-adulto": 5.397376443258461e-05,
-        "frac-hosp-infantil": 0.0001363333951378058
+        "infantil-privado-total": 0
     },
     "20211122": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211119": {
         "adultos-sus-total": 9,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 12,
-        "total-hosp-adulto": 12,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 6.476851731910152e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211118": {
         "adultos-sus-total": 9,
         "adultos-privado-total": 4,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 14,
-        "total-hosp-adulto": 13,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 7.016589376235998e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20211117": {
         "adultos-sus-total": 7,
         "adultos-privado-total": 5,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 12,
-        "total-hosp-adulto": 12,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 6.476851731910152e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211116": {
         "adultos-sus-total": 7,
         "adultos-privado-total": 5,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 12,
-        "total-hosp-adulto": 12,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 6.476851731910152e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211112": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 7,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 11,
-        "total-hosp-adulto": 11,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 5.9371140875843066e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211111": {
         "adultos-sus-total": 8,
         "adultos-privado-total": 7,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 15,
-        "total-hosp-adulto": 15,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 8.096064664887691e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211110": {
         "adultos-sus-total": 8,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 14,
-        "total-hosp-adulto": 14,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 7.556327020561845e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211109": {
         "adultos-sus-total": 8,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 14,
-        "total-hosp-adulto": 14,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 7.556327020561845e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211108": {
         "adultos-sus-total": 9,
         "adultos-privado-total": 3,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 14,
-        "total-hosp-adulto": 12,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 6.476851731910152e-05,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20211105": {
         "adultos-sus-total": 9,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 15,
-        "total-hosp-adulto": 15,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 8.096064664887691e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211101": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 10,
-        "total-hosp-adulto": 10,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 5.397376443258461e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211029": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211028": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211027": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211026": {
         "adultos-sus-total": 3,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 7,
-        "total-hosp-adulto": 7,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.778163510280923e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211025": {
         "adultos-sus-total": 3,
         "adultos-privado-total": 5,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211022": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 5,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 10,
-        "total-hosp-adulto": 10,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 5.397376443258461e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211021": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 7,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 12,
-        "total-hosp-adulto": 12,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 6.476851731910152e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211020": {
         "adultos-sus-total": 3,
         "adultos-privado-total": 8,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 11,
-        "total-hosp-adulto": 11,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 5.9371140875843066e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211019": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 10,
-        "total-hosp-adulto": 10,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 5.397376443258461e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211018": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 11,
-        "total-hosp-adulto": 11,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 5.9371140875843066e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211015": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 5,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 10,
-        "total-hosp-adulto": 10,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 5.397376443258461e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211014": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 10,
-        "total-hosp-adulto": 10,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 5.397376443258461e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211013": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20211008": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 4,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 11,
-        "total-hosp-adulto": 10,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 5.397376443258461e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20211007": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 4,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 11,
-        "total-hosp-adulto": 10,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 5.397376443258461e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20211006": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 3,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20211005": {
         "adultos-sus-total": 4,
         "adultos-privado-total": 3,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 7,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 3.778163510280923e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20211004": {
         "adultos-sus-total": 7,
         "adultos-privado-total": 4,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 12,
-        "total-hosp-adulto": 11,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 5.9371140875843066e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20211001": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 4,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 7,
-        "total-hosp-adulto": 6,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 3.238425865955076e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210930": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 4,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 7,
-        "total-hosp-adulto": 6,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 3.238425865955076e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210929": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 4,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 7,
-        "total-hosp-adulto": 6,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 3.238425865955076e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210928": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 4,
         "infantil-sus-total": 3,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 6,
-        "total-hosp-infantil": 3,
-        "frac-hosp-adulto": 3.238425865955076e-05,
-        "frac-hosp-infantil": 8.180003708268348e-05
+        "infantil-privado-total": 0
     },
     "20210927": {
         "adultos-sus-total": 2,
         "adultos-privado-total": 3,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 6,
-        "total-hosp-adulto": 5,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 2.6986882216292304e-05,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210924": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210923": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210922": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210921": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210920": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210917": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210916": {
         "adultos-sus-total": 5,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 7,
-        "total-hosp-adulto": 7,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 3.778163510280923e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210915": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 2,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 8,
-        "total-hosp-adulto": 8,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.3179011546067685e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210914": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210913": {
         "adultos-sus-total": 6,
         "adultos-privado-total": 3,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 9,
-        "total-hosp-adulto": 9,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 4.857638798932614e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210910": {
         "adultos-sus-total": 7,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 11,
-        "total-hosp-adulto": 11,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 5.9371140875843066e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210909": {
         "adultos-sus-total": 10,
         "adultos-privado-total": 4,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 14,
-        "total-hosp-adulto": 14,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 7.556327020561845e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210908": {
         "adultos-sus-total": 10,
         "adultos-privado-total": 5,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 15,
-        "total-hosp-adulto": 15,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 8.096064664887691e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210906": {
         "adultos-sus-total": 11,
         "adultos-privado-total": 7,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 18,
-        "total-hosp-adulto": 18,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 9.715277597865229e-05,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210903": {
         "adultos-sus-total": 14,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 20,
-        "total-hosp-adulto": 20,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00010794752886516922,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210902": {
         "adultos-sus-total": 13,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 19,
-        "total-hosp-adulto": 19,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00010255015242191074,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210901": {
         "adultos-sus-total": 13,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 19,
-        "total-hosp-adulto": 19,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00010255015242191074,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210831": {
-        "adultos-sus-total": 15,
+        "adultos-sus-total": 18,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 21,
-        "total-hosp-adulto": 21,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00011334490530842767,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210830": {
         "adultos-sus-total": 14,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 20,
-        "total-hosp-adulto": 20,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00010794752886516922,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210827": {
         "adultos-sus-total": 19,
         "adultos-privado-total": 5,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 24,
-        "total-hosp-adulto": 24,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00012953703463820305,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210826": {
         "adultos-sus-total": 17,
         "adultos-privado-total": 5,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 22,
-        "total-hosp-adulto": 22,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00011874228175168613,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210825": {
         "adultos-sus-total": 16,
         "adultos-privado-total": 5,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 21,
-        "total-hosp-adulto": 21,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00011334490530842767,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210824": {
         "adultos-sus-total": 20,
         "adultos-privado-total": 6,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 26,
-        "total-hosp-adulto": 26,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00014033178752471996,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210823": {
         "adultos-sus-total": 20,
         "adultos-privado-total": 7,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 27,
-        "total-hosp-adulto": 27,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00014572916396797842,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210820": {
         "adultos-sus-total": 21,
         "adultos-privado-total": 10,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 31,
-        "total-hosp-adulto": 31,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00016731866974101228,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210819": {
         "adultos-sus-total": 21,
         "adultos-privado-total": 12,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 34,
-        "total-hosp-adulto": 33,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.0001781134226275292,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210818": {
         "adultos-sus-total": 21,
         "adultos-privado-total": 11,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 32,
-        "total-hosp-adulto": 32,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00017271604618427074,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210817": {
         "adultos-sus-total": 22,
         "adultos-privado-total": 12,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 34,
-        "total-hosp-adulto": 34,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00018351079907078766,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210816": {
         "adultos-sus-total": 21,
         "adultos-privado-total": 14,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 35,
-        "total-hosp-adulto": 35,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00018890817551404611,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210813": {
         "adultos-sus-total": 32,
         "adultos-privado-total": 16,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 49,
-        "total-hosp-adulto": 48,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.0002590740692764061,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210812": {
         "adultos-sus-total": 22,
         "adultos-privado-total": 16,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 38,
-        "total-hosp-adulto": 38,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0002051003048438215,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210811": {
         "adultos-sus-total": 21,
         "adultos-privado-total": 15,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 36,
-        "total-hosp-adulto": 36,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00019430555195730457,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210810": {
         "adultos-sus-total": 21,
         "adultos-privado-total": 17,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 38,
-        "total-hosp-adulto": 38,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0002051003048438215,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210809": {
         "adultos-sus-total": 23,
         "adultos-privado-total": 17,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 40,
-        "total-hosp-adulto": 40,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00021589505773033843,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210806": {
         "adultos-sus-total": 24,
         "adultos-privado-total": 21,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 46,
-        "total-hosp-adulto": 45,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.00024288193994663072,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210805": {
         "adultos-sus-total": 30,
         "adultos-privado-total": 21,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 52,
-        "total-hosp-adulto": 51,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.0002752661986061815,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210804": {
         "adultos-sus-total": 31,
         "adultos-privado-total": 21,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 53,
-        "total-hosp-adulto": 52,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.00028066357504943993,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210803": {
         "adultos-sus-total": 33,
         "adultos-privado-total": 23,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 57,
-        "total-hosp-adulto": 56,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.0003022530808224738,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210802": {
         "adultos-sus-total": 36,
         "adultos-privado-total": 22,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 58,
-        "total-hosp-adulto": 58,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00031304783370899073,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210730": {
         "adultos-sus-total": 38,
         "adultos-privado-total": 25,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 63,
-        "total-hosp-adulto": 63,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.000340034715925283,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210729": {
         "adultos-sus-total": 37,
         "adultos-privado-total": 25,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 63,
-        "total-hosp-adulto": 62,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.00033463733948202457,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210728": {
         "adultos-sus-total": 36,
         "adultos-privado-total": 28,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 65,
-        "total-hosp-adulto": 64,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.0003454320923685415,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210727": {
         "adultos-sus-total": 37,
         "adultos-privado-total": 29,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 67,
-        "total-hosp-adulto": 66,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.0003562268452550584,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210726": {
         "adultos-sus-total": 39,
         "adultos-privado-total": 30,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 70,
-        "total-hosp-adulto": 69,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.0003724189745848338,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210723": {
         "adultos-sus-total": 44,
         "adultos-privado-total": 40,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 85,
-        "total-hosp-adulto": 84,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.0004533796212337107,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210722": {
         "adultos-sus-total": 43,
         "adultos-privado-total": 42,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 86,
-        "total-hosp-adulto": 85,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.00045877699767696913,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210721": {
         "adultos-sus-total": 43,
         "adultos-privado-total": 37,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 81,
-        "total-hosp-adulto": 80,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.00043179011546067687,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210720": {
         "adultos-sus-total": 41,
         "adultos-privado-total": 34,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 76,
-        "total-hosp-adulto": 75,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.00040480323324438455,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210719": {
         "adultos-sus-total": 39,
         "adultos-privado-total": 36,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 76,
-        "total-hosp-adulto": 75,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.00040480323324438455,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210716": {
         "adultos-sus-total": 39,
         "adultos-privado-total": 45,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 85,
-        "total-hosp-adulto": 84,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.0004533796212337107,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210715": {
         "adultos-sus-total": 38,
         "adultos-privado-total": 44,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 82,
-        "total-hosp-adulto": 82,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0004425848683471938,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210714": {
         "adultos-sus-total": 41,
         "adultos-privado-total": 45,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 86,
-        "total-hosp-adulto": 86,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0004641743741202276,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210713": {
         "adultos-sus-total": 40,
         "adultos-privado-total": 52,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 92,
-        "total-hosp-adulto": 92,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0004965586327797784,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210712": {
         "adultos-sus-total": 38,
         "adultos-privado-total": 45,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 83,
-        "total-hosp-adulto": 83,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0004479822447904522,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210709": {
         "adultos-sus-total": 43,
         "adultos-privado-total": 47,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 90,
-        "total-hosp-adulto": 90,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00048576387989326145,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210708": {
         "adultos-sus-total": 43,
         "adultos-privado-total": 43,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 87,
-        "total-hosp-adulto": 86,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.0004641743741202276,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210707": {
         "adultos-sus-total": 44,
         "adultos-privado-total": 41,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 86,
-        "total-hosp-adulto": 85,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.00045877699767696913,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210706": {
         "adultos-sus-total": 43,
         "adultos-privado-total": 42,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 87,
-        "total-hosp-adulto": 85,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 0.00045877699767696913,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20210705": {
         "adultos-sus-total": 41,
         "adultos-privado-total": 41,
         "infantil-sus-total": 2,
-        "infantil-privado-total": 0,
-        "total-hosp": 84,
-        "total-hosp-adulto": 82,
-        "total-hosp-infantil": 2,
-        "frac-hosp-adulto": 0.0004425848683471938,
-        "frac-hosp-infantil": 5.4533358055122316e-05
+        "infantil-privado-total": 0
     },
     "20210702": {
         "adultos-sus-total": 44,
         "adultos-privado-total": 45,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 90,
-        "total-hosp-adulto": 89,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.000480366503450003,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210701": {
         "adultos-sus-total": 43,
         "adultos-privado-total": 43,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 87,
-        "total-hosp-adulto": 86,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.0004641743741202276,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210630": {
         "adultos-sus-total": 46,
         "adultos-privado-total": 45,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 92,
-        "total-hosp-adulto": 91,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.0004911612563365199,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210629": {
         "adultos-sus-total": 48,
         "adultos-privado-total": 45,
         "infantil-sus-total": 3,
-        "infantil-privado-total": 0,
-        "total-hosp": 96,
-        "total-hosp-adulto": 93,
-        "total-hosp-infantil": 3,
-        "frac-hosp-adulto": 0.0005019560092230368,
-        "frac-hosp-infantil": 8.180003708268348e-05
+        "infantil-privado-total": 0
     },
     "20210628": {
         "adultos-sus-total": 44,
         "adultos-privado-total": 50,
         "infantil-sus-total": 3,
-        "infantil-privado-total": 0,
-        "total-hosp": 97,
-        "total-hosp-adulto": 94,
-        "total-hosp-infantil": 3,
-        "frac-hosp-adulto": 0.0005073533856662953,
-        "frac-hosp-infantil": 8.180003708268348e-05
+        "infantil-privado-total": 0
     },
     "20210625": {
         "adultos-sus-total": 44,
         "adultos-privado-total": 46,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 91,
-        "total-hosp-adulto": 90,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.00048576387989326145,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210624": {
         "adultos-sus-total": 44,
         "adultos-privado-total": 45,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 89,
-        "total-hosp-adulto": 89,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.000480366503450003,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210623": {
         "adultos-sus-total": 47,
         "adultos-privado-total": 45,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 92,
-        "total-hosp-adulto": 92,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0004965586327797784,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210622": {
         "adultos-sus-total": 44,
         "adultos-privado-total": 47,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 91,
-        "total-hosp-adulto": 91,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0004911612563365199,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210621": {
         "adultos-sus-total": 47,
         "adultos-privado-total": 48,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 95,
-        "total-hosp-adulto": 95,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0005127507621095537,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210618": {
         "adultos-sus-total": 48,
         "adultos-privado-total": 53,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 101,
-        "total-hosp-adulto": 101,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0005451350207691045,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210617": {
         "adultos-sus-total": 46,
         "adultos-privado-total": 51,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 97,
-        "total-hosp-adulto": 97,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0005235455149960707,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210616": {
         "adultos-sus-total": 44,
         "adultos-privado-total": 46,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 90,
-        "total-hosp-adulto": 90,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.00048576387989326145,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210615": {
         "adultos-sus-total": 45,
         "adultos-privado-total": 51,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 96,
-        "total-hosp-adulto": 96,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0005181481385528122,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210614": {
         "adultos-sus-total": 46,
         "adultos-privado-total": 58,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 104,
-        "total-hosp-adulto": 104,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0005613271500988799,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210611": {
         "adultos-sus-total": 48,
         "adultos-privado-total": 58,
         "infantil-sus-total": 1,
-        "infantil-privado-total": 0,
-        "total-hosp": 107,
-        "total-hosp-adulto": 106,
-        "total-hosp-infantil": 1,
-        "frac-hosp-adulto": 0.0005721219029853968,
-        "frac-hosp-infantil": 2.7266679027561158e-05
+        "infantil-privado-total": 0
     },
     "20210610": {
         "adultos-sus-total": 47,
         "adultos-privado-total": 57,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 104,
-        "total-hosp-adulto": 104,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0005613271500988799,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210609": {
         "adultos-sus-total": 46,
         "adultos-privado-total": 62,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 108,
-        "total-hosp-adulto": 108,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0005829166558719137,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210608": {
         "adultos-sus-total": 46,
         "adultos-privado-total": 63,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 109,
-        "total-hosp-adulto": 109,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0005883140323151722,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210607": {
         "adultos-sus-total": 44,
         "adultos-privado-total": 54,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 98,
-        "total-hosp-adulto": 98,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0005289428914393292,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210604": {
         "adultos-sus-total": 44,
         "adultos-privado-total": 63,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 107,
-        "total-hosp-adulto": 107,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0005775192794286553,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210603": {
         "adultos-sus-total": 44,
         "adultos-privado-total": 60,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 104,
-        "total-hosp-adulto": 104,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0005613271500988799,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210602": {
         "adultos-sus-total": 43,
         "adultos-privado-total": 57,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 100,
-        "total-hosp-adulto": 100,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.000539737644325846,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     },
     "20210601": {
         "adultos-sus-total": 44,
         "adultos-privado-total": 59,
         "infantil-sus-total": 0,
-        "infantil-privado-total": 0,
-        "total-hosp": 103,
-        "total-hosp-adulto": 103,
-        "total-hosp-infantil": 0,
-        "frac-hosp-adulto": 0.0005559297736556215,
-        "frac-hosp-infantil": 0.0
+        "infantil-privado-total": 0
     }
 }

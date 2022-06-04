@@ -206,13 +206,13 @@ def imgcrop(img, target, date):  # crop_box = (left, up, right, bottom)
         elif target == 'obitos':
             crop_box = (w*711/800, h*535/800, w*(711+70)/800, h*(535+28)/800)
         elif target == 'adultos-sus-total':
-            crop_box = (w*366/800, h*203/800, w*(366+33)/800, h*(203+17)/800)  
+            crop_box = (w*366/800, h*204/800, w*(366+33)/800, h*(204+20)/800)  
         elif target == 'adultos-privado-total':
-            crop_box = (w*365/800, h*495/800, w*(365+35)/800, h*(495+17)/800)
+            crop_box = (w*365/800, h*496/800, w*(365+35)/800, h*(496+20)/800)
         elif target == 'infantil-sus-total':
-            crop_box = (w*367/800, h*287/800, w*(367+38)/800, h*(287+21)/800)  
+            crop_box = (w*367/800, h*289/800, w*(367+38)/800, h*(289+20)/800)  
         elif target == 'infantil-privado-total':
-            crop_box = (w*367/800, h*579/800, w*(367+38)/800, h*(579+20)/800)
+            crop_box = (w*367/800, h*581/800, w*(367+38)/800, h*(581+20)/800)
         else:
             raise Exception("Target not found on image for OCR detection.")
 
@@ -373,15 +373,7 @@ if have_new :
                     dbhospdict_update[date].update({target: ocrvalue})
                 print("OCR for %d (%s) = %d from raw %s" % (date, target, ocrvalue, ocrraw))
                 #imgfinal.show()
-            total_hosp = sum(dbhospdict_update[date].values())
-            total_hosp_adulto = dbhospdict_update[date]['adultos-sus-total'] + dbhospdict_update[date]['adultos-privado-total']
-            total_hosp_infantil = dbhospdict_update[date]['infantil-sus-total'] + dbhospdict_update[date]['infantil-privado-total']
-            
-            dbhospdict_update[date].update({'total-hosp': total_hosp})
-            dbhospdict_update[date].update({'total-hosp-adulto': total_hosp_adulto})
-            dbhospdict_update[date].update({'total-hosp-infantil': total_hosp_infantil})
-            dbhospdict_update[date].update({'frac-hosp-adulto': total_hosp_adulto/pop_ibge_adulto})
-            dbhospdict_update[date].update({'frac-hosp-infantil': total_hosp_infantil/pop_ibge_infantil})
+
 
 # Update db file
 
@@ -419,16 +411,14 @@ if yesterday_none and not have_new:
     must_update = False
 
 
+
+
 # Generate plots
 
 plt.style.use(['bmh', fileroot+'mystyle.mplstyle'])
 
-# In[ ]:
-
-
 df = pd.DataFrame.from_dict(dbdict, orient='index')
 df.index = pd.to_datetime(df.index, format='%Y%m%d')
-
 
 # In[ ]:
 
@@ -466,7 +456,7 @@ df['casos_circulantes_rolling'] = df['casos_circulantes'].rolling(7, center=True
 df = df.asfreq('d')
 
 ax = df['casos_diarios'].plot(color='mistyrose', kind='area', # stacked=False,
-                              title='Casos diários por data de divulgação no site da prefeitura',
+                              title='Casos diários por data de divulgação no site da prefeitura (São Carlos-SP)',
                               label='Casos diários')
 ax = df['casos_diarios'].plot(linewidth=0, marker=4, markersize=11,
                         markevery=[-1], color=(0.5, 0, 0, 0.2),
@@ -498,7 +488,7 @@ plt.clf()
 
 
 ax = df['obitos_diarios'].plot(color='0.9', kind='area',  # stacked=False,
-                               title='Óbitos diários por data de divulgação no site da prefeitura',
+                               title='Óbitos diários por data de divulgação no site da prefeitura (São Carlos-SP)',
                                label='Óbitos diários')
 ax = df['obitos_diarios'].plot(linewidth=0, marker=4, markersize=11, markevery=[-1], color=(0, 0, 0, 0.2),
         label="Último dado: "+last_update_date.strftime('%A, %d-%b-%Y'))
@@ -537,10 +527,17 @@ plt.clf()
 
 
 
-# In[ ]:
+
+# Convert dict to df and calculate parameters
 
 df = pd.DataFrame.from_dict(dbhospdict, orient='index')
 df.index = pd.to_datetime(df.index, format='%Y%m%d')
+
+df['total-hosp-adulto'] = df['adultos-sus-total'] + df['adultos-privado-total']
+df['total-hosp-infantil'] = df['infantil-sus-total'] + df['infantil-privado-total']
+df['total-hosp'] = df['total-hosp-adulto'] + df['total-hosp-infantil']
+df['frac-hosp-adulto'] = df['total-hosp-adulto']/pop_ibge_adulto
+df['frac-hosp-infantil'] = df['total-hosp-infantil']/pop_ibge_infantil
 
 if have_new :
     print("NEW: Total hosp adult: ", df['total-hosp-adulto'][0],
@@ -561,12 +558,12 @@ df['frac-hosp-infantil'] = df[df['frac-hosp-infantil'].index > np.datetime64(day
 
 df = df.asfreq('d', method = 'ffill')
 
-# ax = df['total-hosp'].plot(color='mistyrose', kind='area', # stacked=False,
+#ax = df['total-hosp'].plot(color='mistyrose', kind='area', # stacked=False,
 #                               title='Casos diários por data de divulgação no site da prefeitura',
 #                               label='Casos diários')
 ax = df['total-hosp'].plot(color='brown', linewidth=2.25,
-                              title='Número total de hospitalizados por data de divulgação no site da prefeitura',
-                              label='Número total de hospitalizados')
+                              title='Número total de hospitalizados por data de divulgação da prefeitura (São Carlos-SP)',
+                              label='_Número total de hospitalizados')
 ax = df['total-hosp'].plot(linewidth=0, marker=4, markersize=11,
                         markevery=[-1], color=(0.5, 0, 0, 0.2),
                         label="Último dado: "+last_update_date.strftime('%A, %d-%b-%Y'))
@@ -592,14 +589,19 @@ plt.clf()
 
 
 ax = df['frac-hosp-adulto'].plot(color='green', linewidth=2.25,
-        title='Fração da população hospitalizada (nº hospitalizados/população da categoria)',
+        title='Fração hospitalizada (nº hospitalizados da categoria ÷ população da categoria)',
         label="Adulto")
 ax = df['frac-hosp-infantil'].plot(color='blue', linewidth=2.25,
         label="Infantil (até 13 anos)")
 #ax.set_xlim(xmin=daymin, xmax=daymaxfds)
 ax.set_xlim(xmin=daymin, xmax=daymax)
 ax.set_ylim(ymin=0)
-ax.yaxis.set_major_formatter(mtick.FormatStrFormatter('%.2e'))
+#ax.yaxis.set_major_formatter(mtick.FormatStrFormatter('%.1e'))
+formatter = mtick.ScalarFormatter(useMathText=True)
+formatter.set_scientific(True)
+formatter.set_powerlimits((-3,3))
+ax.yaxis.set_major_formatter(formatter)
+ax.yaxis.get_offset_text().set_position((0.985,0))
 ax.set_axisbelow(False)
 ax.lines[1].set_clip_on(False)
 ax.legend()
