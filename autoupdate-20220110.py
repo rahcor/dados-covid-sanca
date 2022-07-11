@@ -3,6 +3,9 @@
 
 # In[ ]:
 
+import locale
+locale.setlocale(locale.LC_TIME, "")  # As in https://bugs.python.org/issue29457
+
 import numpy as np
 import scipy as sp
 import matplotlib.pyplot as plt
