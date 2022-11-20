@@ -10,17 +10,20 @@
   <link rel="stylesheet" href="pandoc-extra.css" />
 </head>
 <body>
-      <nav><a href="./index.html"><-- Ir para a página dos casos conforme data de divulgação</a></nav>
+      <nav id="menu" >
+      <details open=""><summary>Menu (clique nas linhas para acessar)</summary>
+        <ol>
+          <li><a href="./index.html"><strong>Casos covid</strong> por data de notificação</a></li>
+          <li><strong>Nowcasting covid</strong> por data de início dos sintomas</li>
+          <li><a href="./dengue.html"><strong>Casos de dengue</strong></a></li>
+        </ol>
+      </details>
+    </nav> 
       <header>
     <h1 class="title">Nowcasting da covid em São Carlos-SP</h1>
               </header>
-  <p style="text-align: justify;">
-    <strong style="color: red">Atenção!</strong> 
-    Como os casos foram controlados devido à vacinação, decidi por encerrar as atualizações automáticas.
-    Um abraço e agradeço as pessoas que acompanharam o site!
-<!--    <p style="text-align: center; padding: 4em;">-->
-    Para se manterem atualizados(as) da situação, sugiro que acompanhem os casos de hospitalizações no estado de SP (<a href="https://gitlab.procc.fiocruz.br/lsbastos/nowcasting_data/-/raw/master/pngs/SP.png" target="_blank">clique aqui</a>) feita pelo pesquisador <a href="https://twitter.com/leosbastos" target="_blank">Leonardo Bastos</a> da Fiocruz, o qual inclui nowcasting. A atualização é semanal.
-  </p>
+<p class="update-time" style="text-align: center;"><strong style="color: red">Atenção!</strong> Retornei com o monitoramento diário usando os dados do OpenDataSUS, entretanto passei a considerar todos os casos notificados de síndrome gripal, que inclui os positivos e negativos para covid. Isso pode introduzir viéses nas tendências, portanto é necessário cautela nas interpretações.</p>
+<p class="update-time" style="text-align: center;">(Atualização diária às 19h)</p>
 <p><img src="./nowcasting.png" style="margin: auto;" /></p>
 <p><img src="./nowcasting-3meses.png" style="margin: auto;" /></p>
 <p>No gráfico acima, a região em que a linha está duplicada se refere aos casos sujeitos à atrasos que foram estimados com a técnica de nowcasting. A distância entre as linhas representa um intervalo de incerteza para os possíveis valores da estimativa.</p>
