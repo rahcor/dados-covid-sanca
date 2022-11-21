@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Gráficos da dengue em Araraquara-SP</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css" />
+  <link rel="stylesheet" href="pandoc-extra.css" />
+  <meta name="google-site-verification" content="waHWISVtE2nK_hhdqNQ8ForZrAb6Btl5Yf7FftP88GA" />
+</head>
+<body>
+     <nav id="menu" >
+      <details open=""><summary>Menu (clique nas linhas para acessar)</summary>
+        <ol>
+          <li><a href="./index.html">Casos covid por data de notificação (Prefeitura)</a></li>
+          <li><a href="./nowcasting.html">Nowcasting covid por data de início dos sintomas (OpenDataSUS)</a></li>
+          <li><a href="./dengue.html">Casos de <strong>dengue</strong></a></li>
+          <li><a href="./nowcasting-aqa.html">Nowcasting covid em <strong>Araraquara-SP</strong> por data de início dos sintomas (OpenDataSUS)</a></li>
+          <li>Casos de <strong>dengue em Araraquara</strong></li>
+        </ol>
+      </details>
+    </nav> 
+      <header>
+        <h1 class="title">Gráficos da dengue em Araraquara-SP</h1>
+      </header>
+<!--      <p class="update-time" style="text-align: center;"><strong style="color: red">Atenção!</strong> A quantidade de testes foi reduzida em 24/01/2022 (<a href="http://coronavirus.saocarlos.sp.gov.br/nota-testes-covid-19/">ver notícia</a>) e retornou ao normal em 02/02/2022 (<a href="http://coronavirus.saocarlos.sp.gov.br/sao-carlos-recebe-mais-2-150-testes-antigenos-para-diagnosticar-covid-19/">ver notícia</a>).</p>-->
+  <p class="update-time" style="text-align: center;">(Atualização toda segunda e quinta às 19h)</p>
+<p><img src="dengue-nowcasting-aqa.png" /></p>
+<hr />
+<p>Dados coletados da API do InfoDengue/Fiocruz-FGV: <a href="https://info.dengue.mat.br/services/api">https://info.dengue.mat.br/services/api</a><br />
+Script em R de coleta dos dados e geração dos gráficos: <a href="autoupdate-dengue-20220522.R" class="uri">autoupdate-dengue-20220522.R</a><br />
+</p>
+<hr />
+<p>Construído com <a href="https://www.python.org/">python e bibliotecas</a>, <a href="https://pandoc.org/">pandoc</a> e <a href="https://github.com/kognise/water.css">water.css</a>.</p>
+  </body>
+</html>
